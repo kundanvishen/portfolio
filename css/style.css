@@ -1,0 +1,159 @@
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+
+[class*="fontawesome-"]:before {
+	font-family: 'FontAwesome', sans-serif;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif !important;
+}
+
+body * {
+	transition: 0.3s linear;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	z-index: 99999;
+}
+
+#nav {
+	background-color: #282828;
+	text-align: center;
+}
+
+li {
+	color: white;
+	list-style: none;
+	display: inline-block;
+	padding: 0 0.25em;
+}
+
+#nav ul {
+	float: none;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#nav li {
+	display: inline-block;
+	margin: 0 auto;
+	padding: 0;
+	vartical-align: baseline;
+	float: none;
+}
+
+#nav a {
+	margin: 0.3em 0.15em 0em 0em;
+	padding: 0.7em 0.5em 0.5em 0.5em;
+	height: 2.5em;
+	width: 7em;
+}
+
+li a {
+	color: white !important;
+	font-size: 13pt;
+	border-radius: 3pt;
+}
+
+li a:hover {
+	background: darkcyan !important;
+}
+
+.jumbotron-container .jumbotron {
+	background-color: cornsilk;
+	min-height: 30em;
+	margin-bottom: 0;
+}
+
+.jumbotron-container * {
+	text-align: center;
+}
+
+.jumbotron a {
+	margin-top: 10px;
+}
+
+.jumbotron a.btn-primary {
+	background: darkcyan;
+}
+
+.jumbotron a.btn-primary:hover {
+	background: transparent;
+	color: black;
+	transition: 0.1s;
+}
+
+.container p:last-child {
+	margin-bottom: 4em;
+}
+
+section.about-me {
+	background: darkcyan;
+	color: white;
+	min-height: 31em;
+	text-align: center;
+}
+
+section .container {
+	padding-top: 4em;
+}
+
+img.profile_pic {
+	border-radius: 8em 3em 8em 3em;
+	margin: 0 auto;
+}
+
+.panel-primary {
+	border-color: darkcyan;
+}
+
+.panel-heading {
+	background-color: darkcyan !important;
+}
+
+.panel-body a:hover img {
+	opacity: 0.4;
+}
+section.mywork {
+	background-color: White;
+	min-height: 35em;
+}
+section.contact {
+	background-color: cornsilk;
+	min-height: 25em;
+	text-align:center;
+	color: darkcyan;
+}
+
+.list-group {
+	margin: 0 auto;
+}
+.list-group-item {
+	background: transparent;
+	border: none;
+}
+
+.list-group-item a {
+	background: none;
+	color: darkcyan;
+	border-color: darkcyan;
+}
+.list-group-item a:hover,.list-group-item a:active {
+	background-color: darkcyan;
+}
+.margin-bottom {
+	margin-bottom: 3em;
+}
+.contact h3 {
+	padding-top: 4em;
+}
+footer {
+	padding: 2em 0;
+	background-color: darkcyan;
+	min-heigh: 10em;
+	color: white;
+}
